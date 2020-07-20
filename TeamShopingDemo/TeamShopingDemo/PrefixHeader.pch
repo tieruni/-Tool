@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  TeamShopingDemo
+//
+//  Created by ZhiF_Zhu on 2020/3/29.
+//  Copyright © 2020 ZhiF_Zhu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kWidthScale ([UIScreen mainScreen].bounds.size.width/375.)
+#define kHeightScale ([UIScreen mainScreen].bounds.size.height/667.)
+
+//(2)如果设计师给的是16进制的颜色，比如#354b60
+#define UIColorFromHex(hexColor) [UIColor colorWithRed:((hexColor & 0xFF0000) >> 16) / 255.0f green:((hexColor & 0xFF00) >> 8) / 255.0f blue:((hexColor & 0xFF)) / 255.0f alpha:1.0f]
+#define UIColorFromHexAndAlpha(hexColor,alpha) [UIColor colorWithRed:((hexColor & 0xFF0000) >> 16) / 255.0f green:((hexColor & 0xFF00) >> 8) / 255.0f blue:((hexColor & 0xFF)) / 255.0f alpha:alpha]
+
+#define QQMUSICURL @"https://www.baidu.com/link?url=UTiLwaXdh_-UZG31tkXPU62Jtsg2mSbZgSPSR3ME3YwOBSe97Hw6U6DNceQ2Ln1vXnb2krx0ezIuziBIuL4fWNi3dZ02t2NdN6946XwN0-a&wd=&eqid=ce6864b50004af120000000656fe235f"
+
+//网络请求
+//#import "AFNetworking.h"
+//#import "SDWebImage.h"
+
+//分类
+#import "MBProgressHUD+CSH.h"
+
+
+
+#endif /* PrefixHeader_pch */

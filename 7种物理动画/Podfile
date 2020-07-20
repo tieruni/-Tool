@@ -1,0 +1,26 @@
+platform :ios, ‘8.0’
+target ‘TestExampleDemo’ do
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+# source 'https://cdn.cocoapods.org/'
+use_frameworks!
+
+# pod 'SDWebImage', '~> 5.3.1'
+# pod 'Masonry'
+pod 'AFNetworking', '~> 3.2.1'
+# pod 'MJExtension', '~> 3.0.10'
+# pod 'Masonry', '~> 1.1.0'
+# pod 'MJExtension'
+# pod 'MJRefresh'
+# pod 'MBProgressHUD'
+# pod 'FXBlurView'
+# pod 'FCUUID'
+# pod 'LEEAlert','~> 1.2.0'
+# pod 'BAGridView'
+# pod 'MMDrawerController'
+# pod 'FMDB'
+
+# pod 'JMActionSheetDescription'
+# pod "JMActionSheetDescription"
+# pod "ZSSRichTextEditor"
+# pod 'DZNEmptyDataSet'
+end
